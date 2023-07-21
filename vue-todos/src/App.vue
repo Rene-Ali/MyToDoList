@@ -1,5 +1,5 @@
 <script setup>
-import {RouterView} from "vue";
+import {RouterView} from "vue-router";
 import ToDoHeader from "@/components/ToDoHeader.vue";
 
 
@@ -7,11 +7,9 @@ import ToDoHeader from "@/components/ToDoHeader.vue";
 
 <template>
   <ToDoHeader/>
-  <header>
-    <RouterView/>
-    //Stand 20:09 tbc
 
-  </header>
+  <RouterView/>
+  //Stand 20:09 tbc
 
 
 </template>
