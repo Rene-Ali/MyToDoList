@@ -2,12 +2,12 @@
   <header>
     <nav class="container">
       <div class="branding">
-        <img src="../assets/Vue_Logo_Black.png" alt="">
+        <img src="../assets/nachhilfewien-logo-small.png" alt="">
         <h1> Vue Todos</h1>
       </div>
       <ul class="nav-routes">
         <RouterLink to="/">Home</RouterLink>
-        <Routerlink to="/about">About</Routerlink>
+        <RouterLink to="/about">About</RouterLink>
       </ul>
     </nav>
   </header>
@@ -15,6 +15,7 @@
 
 <script setup>
 import { RouterLink } from "vue-router";
+
 
 
 </script>
@@ -36,6 +37,7 @@ header {
       }
 
       h1 {
+        margin-top: 15px;
         font-size: 24px;
       }
     }

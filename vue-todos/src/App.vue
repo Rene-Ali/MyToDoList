@@ -9,7 +9,6 @@ import ToDoHeader from "@/components/ToDoHeader.vue";
   <ToDoHeader/>
 
   <RouterView/>
-<!--  Stand 1:07 https://www.youtube.com/watch?v=KTFH4P8unUQ-->
 
 
 </template>
